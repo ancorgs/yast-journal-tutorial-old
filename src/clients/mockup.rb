@@ -1,3 +1,3 @@
-require 'systemd_journal/mockup_dialog'
+require 'systemd_journal/mockup_controller'
 
-SystemdJournal::MockupDialog.new.run
+SystemdJournal::MockupController.new.run
