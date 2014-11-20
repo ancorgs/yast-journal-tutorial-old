@@ -24,3 +24,15 @@ Step 1: basic client
   and check result in ```~/.y2log```
 
 * Celebrate your first YaST module.
+
+* Not let's try to create a more complex UI. YaST does not impose any
+  architectural pattern to your code. Let's try to follow the well known MVC
+  approach while still keeping the code as obvious as possible (no Rails-like
+  magic to integrate view and controller).
+* Modify the code as in commit 83a36cc371
+* Link to UI reference for layout documentation
+* Explanation of the controller loop: libyui is not event-driven.
+* ```Y2DIR=src/ /usr/sbin/yast2 mockup``` and repeat with ```--ncurses```. Keep
+  in mind that the ncurses version should fit in 80x25, so resize your xterm
+  according. It obviously looks too cluttered in ncurses, we'll need an extra
+  modal dialog.
