@@ -1,0 +1,11 @@
+# Site settings
+title: Creating the YaST journal module
+description: A tutorial about the basis of YaST modules development
+email: yast-devel@opensuse.org
+baseurl: "/"
+url: "http://0.0.0.0:4000"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
